@@ -17,19 +17,12 @@ function Cards({ numbmatiere, setNumbMatiere }) {
 
     const [open, setOpen] = React.useState(false);
 
-    // const handleClickOpen = () => {
-    //     setOpen(true);
-    // };
 
     const handleClose = () => {
         setOpen(false);
     };
 
-    // const handleDelete = async () => {
-    //     setOpen(false)
-
-    // }
-
+  
 
 
     return (

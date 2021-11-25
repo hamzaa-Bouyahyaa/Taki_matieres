@@ -21,9 +21,6 @@ export default function Form(props) {
     })
 
 
-
-
-
     const handleSubmit = async (event) => {
         event.preventDefault();
         await props.setCards([...props.cards, { title: data.title, text: data.text }]);

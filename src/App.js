@@ -21,7 +21,7 @@ function App() {
         setLoading(!isLoading);
       }
     });
-  }, []);
+  }, [isLoading]);
 
   if (isLoading) {
     return null;
